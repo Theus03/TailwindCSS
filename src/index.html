@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="pt-br" >
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./tailwind.css">
+</head>
+<body class="bg-gray-100 dark:bg-gray-800">
+
+    <!-- Tipografia -->
+    <div class="p-4">
+        <div class="pl-2 border-l-2 border-blue-400">
+            <h1 class="text-3xl font-bold mb-6">Tipografia</h1>
+        </div>
+        <h1 class="text-sm text-gray-500">Hello World!</h1>
+        <h1 class="text-base text-red-800">Hello World!</h1>
+        <h1 class="text-lg text-yellow-400">Hello World!</h1>
+        <h1 class="text-xl tracking-widest">Hello World!</h1>
+        <h1 class="text-2xl font-black">Hello World!</h1>
+        <p class="text-left">
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Obcaecati, animi. Aperiam, minus placeat nisi commodi sed nesciunt aliquam veniam minima molestiae ipsa maxime aspernatur iure numquam quia ipsum eaque laborum.
+        </p>
+    </div>
+
+    <!-- Espaçamento -->
+    <div class="p-4">
+        <div class="pl-2 border-l-2 border-blue-400">
+            <h1 class="text-3xl font-bold mb-6">Espaçamento</h1>
+        </div>
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Accusantium cum nihil facilis quos sapiente reiciendis error, autem repudiandae distinctio velit totam nisi alias accusamus, atque ad praesentium doloremque, unde voluptates!
+        
+        <div class="m-4 space-y-6">
+            <div>1</div>
+            <div>2</div>
+            <div>3</div>
+        </div>
+    </div>
+    
+    <!-- Bordas -->
+    <div class="p-4">
+        <div class="pl-2 border-l-2 border-blue-400">
+            <h1 class="text-3xl font-bold mb-6">Bordas</h1>
+        </div>
+        <div class="m-5 p-4 border-l-2 border-yellow-400">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam blanditiis voluptatibus alias odit minus obcaecati velit sequi corrupti. Veritatis perferendis quasi deleniti voluptatum ut natus impedit molestias dolorum laudantium quaerat!
+        </div>
+        <div class="m-5 p-4 border-2 border-red-400 rounded">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam blanditiis voluptatibus alias odit minus obcaecati velit sequi corrupti. Veritatis perferendis quasi deleniti voluptatum ut natus impedit molestias dolorum laudantium quaerat!
+            <button class="bg-red-400 px-4 py1 rounded text-white hover:ring-2 hover:ring-red-500">Save</button>
+        </div>
+        <br>
+    </div>
+
+    <!-- Background -->
+    <div class="p-4">
+        <div class="pl-2 border-l-2 border-blue-400">
+            <h1 class="text-3xl font-bold mb-6">Background</h1>
+        </div>
+        <div class="m-5 p-4 bg-blue-200 rounded">
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Error porro adipisci ullam. Rerum reprehenderit quia sit, tempora laboriosam perferendis quae voluptatibus dignissimos beatae illum! Molestiae eaque repudiandae quis sunt dolor.
+        </div>
+        <div class="m-5 p-4 bg-gradient-to-t from-cyan-500 to-blue-500 rounded text-white">
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repellat consectetur repellendus nostrum, nihil numquam natus illo ad blanditiis temporibus explicabo porro labore cumque odit doloribus similique ea tenetur dolores est.
+        </div>
+    </div>
+
+    <!-- Largura e Altura -->
+    <div class="p-4">
+        <div class="pl-2 border-l-2 border-blue-400">
+            <h1 class="text-3xl font-bold mb-6">Largura e Altura</h1>
+        </div>
+        <div class="bg-slate-500 w-2/3 max-w-md">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum vel omnis porro ab, minima itaque magnam illum inventore possimus libero, earum, cum sint nemo rerum unde? Soluta quaerat doloremque nisi.
+        </div>
+    </div>
+
+    <!-- Flexbox -->
+    <div class="p-4">
+        <div class="pl-2 border-l-2 border-blue-400">
+            <h1 class="text-3xl font-bold mb-6">Flexbox</h1>
+        </div>
+        <div class="flex gap-2">
+            <div class="p-4 w-1/2 bg-blue-500 text-white text-center text-xl rounded">1</div>
+            <div class="p-4 w-1/2 bg-blue-500 text-white text-center text-xl rounded">2</div>
+            <div class="p-4 w-1/2 bg-blue-500 text-white text-center text-xl rounded">3</div>
+        </div>
+        <br>
+        <div class="flex gap-2">
+            <div class="p-4  bg-blue-500 text-white text-center text-xl rounded">1</div>
+            <div class="flex-grow p-4  bg-blue-500 text-white text-center text-xl rounded">2</div>
+            <div class="p-4  bg-blue-500 text-white text-center text-xl rounded">3</div>
+        </div>
+        <br>
+        <div class="flex gap-2">
+            <div class="flex-grow p-4  bg-blue-500 text-white text-center text-xl rounded">1</div>
+            <div class="p-4 bg-blue-500 text-white text-center text-xl rounded">2</div>
+            <div class="p-4  bg-blue-500 text-white text-center text-xl rounded">3</div>
+        </div>
+    </div>
+
+    <!-- Grid -->
+    <div class="p-4">
+        <div class="pl-2 border-l-2 border-blue-400">
+            <h1 class="text-3xl font-bold mb-6">Grid</h1>
+        </div>
+        <div class="grid grid-cols-4 gap-4">
+            <div class="p-4  bg-blue-300 text-black text-center text-xl rounded">1</div>
+            <div class="p-4 bg-blue-300 text-black text-center text-xl rounded">2</div>
+            <div class="p-4  bg-blue-300 text-black text-center text-xl rounded">3</div>
+            <div class="p-4  bg-blue-300 text-black text-center text-xl rounded">4</div>
+            <div class="p-4  bg-blue-300 text-black text-center text-xl rounded">5</div>
+            <div class="p-4  bg-blue-300 text-black text-center text-xl rounded">6</div>
+            <div class="col-span-2 p-4  bg-blue-300 text-black text-center text-xl rounded">7</div>
+            <div class="p-4  bg-blue-300 text-black text-center text-xl rounded">8</div>
+            <div class="p-4  bg-blue-300 text-black text-center text-xl rounded">9</div>
+        </div>
+    </div>
+
+    <!-- Responsividade -->
+    <div class="p-4">
+        <div class="pl-2 border-l-2 border-blue-400">
+            <h1 class="text-3xl font-bold mb-6">Responsividade</h1>
+        </div>
+        <h1 class="sm:text-base md:text-lg xl:text-xl">Hello TailwindCSS</h1>
+    </div>
+
+    <!-- Estados: Hover, Focus -->
+    <div class="p-4">
+        <div class="pl-2 border-l-2 border-blue-400">
+            <h1 class="text-3xl font-bold mb-6">Estados: Hover, Focus</h1>
+        </div>
+        <div class="group w-72 h-24 bg-gray-200 p-4 rounded">
+            <h4 class="font-bold group-hover:text-blue-500">Meu Card</h4>
+            <p class="text-gray-600 group-hover:text-gray-900">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        </div>
+        <input placeholder="" title="" name="" id="" type="text" class="bg-gray-200 text-lg px-4 py-2 mt-2 border-2 border-gray-500 rounded focus: outline-none focus:border-blue-500"/>
+    </div>
+</body>
+</html>
